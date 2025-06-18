@@ -1,0 +1,23 @@
+body {
+  height: 100%;
+  margin: 0;
+  background: linear-gradient(to right, #202020, #111119);
+  display: grid;
+  color: white;
+  font-family: 'Poppins-Regular';
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+canvas{
+  filter: invert(39%) sepia(0%) saturate(0%) hue-rotate(8deg) brightness(96%) contrast(86%);
+  position: absolute;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
