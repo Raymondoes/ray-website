@@ -66,7 +66,6 @@ let update = () => {
     for(let i = 0; i < allRains.length; i++){
         allRains[i].move()
         if(allRains[i].posY > canvas.height || allRains[i].posX > canvas.width ) {
-            console.log(allRains[i].posY)
             allRains.splice(i, 1)
         }
     }
