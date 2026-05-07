@@ -13,6 +13,14 @@
     gap: 10px;
 }
 
+#icons-2{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right:auto;
+    gap: 10px;
+}
+
 #youtube{
     height: 40px;
     filter: invert(69%) sepia(0%) saturate(1%) hue-rotate(107deg) brightness(91%) contrast(87%);
